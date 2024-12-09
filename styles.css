@@ -1,0 +1,230 @@
+body {
+    background: #1a1a1a; /* Dark background */
+    color: #ffffff; /* White text */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #1a1a1a; /* Dark background */
+    color: #ffffff; /* White text */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background: #ff0000; /* Squid Game red */
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+#header {
+    background: #ff0000; /* Squid Game red */
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+#navigation {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+#navigation {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+
+#navigation a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+#navigation a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+#navigation a:hover {
+    color: #ffd700; /* Gold color on hover */
+}
+#navigation a:hover {
+    color: #ffd700; /* Gold color on hover */
+}
+
+#body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+#body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#tagline {
+    text-align: center;
+    margin: 40px 0;
+}
+#tagline {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+.content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+img:hover {
+    transform: scale(1.05);
+}
+
+#footer {
+    background: #333;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+#footer {
+    background: #333;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#connect a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+#connect a {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.blog {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+}
+#connect a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+.blog {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+}
+
+.blog li {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.blog li:hover {
+    transform: translateY(-5px);
+}
+
+/* Additional styles */
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 40px 0;
+}
+
+.responsive-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.user-input-section {
+    background: rgba(255, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 500px;
+}
+
+#userInput {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #ff0000;
+    border-radius: 4px;
+    width: 200px;
+}
+
+button {
+    background: #ff0000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #cc0000;
+}
+
+h1 a {
+    color: white;
+    text-decoration: none;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 5px #fff;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff0000;
+    }
+}
